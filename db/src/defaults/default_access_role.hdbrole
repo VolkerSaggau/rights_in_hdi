@@ -10,7 +10,6 @@
           "INSERT",
           "SELECT",
           "SELECT CDS METADATA",
-          "SELECT METADATA",
           "UPDATE"
         ]
       }
