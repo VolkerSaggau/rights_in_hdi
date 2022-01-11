@@ -1,16 +1,17 @@
 {
   "role": {
-    "name": "default_access_role",
+    "name": "alter_access_role",
     "schema_privileges": [
       {
         "privileges": [
           "DELETE",
+          "CREATE TEMPORARY TABLE",
           "EXECUTE",
           "INSERT",
           "SELECT",
-          "SELECT CDS METADATA",
           "UPDATE",
-          "ALTER"
+          "ALTER",
+          "SELECT CDS METADATA"
         ]
       }
     ]

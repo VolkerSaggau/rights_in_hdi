@@ -1,0 +1,8 @@
+==version=1
+
+column table Events(
+    eventid         BIGINT  not null GENERATED ALWAYS AS IDENTITY,
+    eventdate       datetime not null,
+    eventname       nvarchar(25),
+    eventstype      int default 0
+)
